@@ -1,0 +1,100 @@
+.container {
+  background-image: url("sansara.webp");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position-x: center;
+
+  height: 600px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+.wrapper {
+  width: 100vw;
+  background: linear-gradient(to bottom, rgb(23, 23, 49), rgb(35, 34, 34));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.first {
+  margin-top: 30px;
+  position: relative;
+  width: 100%;
+  height: 3000px;
+}
+.line {
+  position: absolute;
+  top: 0px;
+  height: 400px;
+  width: 100%;
+  border-bottom: 5px solid white;
+}
+.natal {
+  background-image: url("natal.png");
+  background-size: contain;
+  width: 800px;
+  height: 803px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  margin-left: -400px;
+
+  animation: none;
+}
+.natal:hover {
+  animation: App-logo-spin infinite 200s linear;
+}
+.natal1 {
+  width: 1321px;
+  height: 1333px;
+  border-radius: 50%;
+  /* background-color: beige; */
+
+  background-image: url("natal1.png");
+  background-size: contain;
+  position: absolute;
+  top: 1050px;
+  animation: none;
+}
+.container_natal {
+  width: 800px;
+  height: 804px;
+  border-radius: 50%;
+  top: 1320px;
+  /* right: 400px; */
+  position: absolute;
+  background-color: beige;
+  background-image: url("natal.png");
+  background-size: contain;
+  /* animation: peoplelife infinite 100s linear reverse; */
+}
+.natal1:hover {
+  animation: App-logo-spin infinite 200s linear;
+}
+.container__weelpeople:hover {
+  animation-name: none;
+}
+
+@keyframes peoplelife {
+  0% {
+    transform: rotate(0deg);
+  }
+  /* 50% {
+    transform: rotate(180deg);
+  } */
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes App-logo-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  /* 50% {
+    transform: rotate(180deg);
+  } */
+  100% {
+    transform: rotate(360deg);
+  }
+}
