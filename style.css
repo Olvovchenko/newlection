@@ -6,6 +6,9 @@ button {
   background-color: burlywood;
   width: 150px;
   height: 70px;
+  position: absolute;
+  top: 750px;
+  left: 1750px;
 }
 .old {
   font-size: 100px;
