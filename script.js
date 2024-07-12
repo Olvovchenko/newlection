@@ -22,7 +22,7 @@ $(document).ready(function () {
     $(".natal1").animate(
       { deg: `${turn}` },
       {
-        duration: 50,
+        duration: 10000,
         step: function (now) {
           $(this).css({ transform: "rotate(" + now + "deg)" });
         },
